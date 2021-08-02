@@ -1,9 +1,9 @@
 public class Main // Main Class//
 {
-    static class CheckClean // static class//
+    static class CheckClean // Static class//
     {
 
-        int SmallestNumber; // initializing variable//
+        int SmallestNumber; // Initializing variable//
         int LargestNumber;
     }
 
@@ -42,9 +42,9 @@ public class Main // Main Class//
     public static void main(String args[]) // Main method//
     {
         int GivenArray[] = { 1000, 11, 445, 1, 330, 3000 }; // Declaring Array//
-        int SizeOfArray = 6;
-        CheckClean objectOfCheck = UpperBound_LowerBound(GivenArray, SizeOfArray); // Passing value of array according
-                                                                                   // to size//
+        int ArraySize = 6;
+        CheckClean objectOfCheck = UpperBound_LowerBound(GivenArray, ArraySize); // Passing value of array according
+                                                                                 // to size//
         System.out.printf("\n Smallest Number : %d", objectOfCheck.SmallestNumber);
         System.out.printf("\n Largest Number : %d", objectOfCheck.LargestNumber);
     }
